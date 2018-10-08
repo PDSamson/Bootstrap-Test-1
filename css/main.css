@@ -1,0 +1,53 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+.text-white {
+  color: #ffffff;
+}
+
+.padding-sm {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.blurb-pic {
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.rightbox {
+  margin-left: 6.25%;
+  margin-right: 3.125%;
+}
+
+.leftbox {
+  margin-right: 6.25%;
+  margin-left: 3.125%;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }

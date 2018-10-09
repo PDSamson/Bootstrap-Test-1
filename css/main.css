@@ -5,8 +5,6 @@
    ========================================================================== */
 
 body {
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-
   /* Full height */
   height: 100%;
 
@@ -14,6 +12,29 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+footer {
+  background-color: #C0C0C0;
+  margin-top: 1%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carousel-inner img {
@@ -34,6 +55,16 @@ body {
 .blurb-pic {
   background-color: #ffffff;
   border-radius: 25px;
+  padding: 0;
+}
+
+.blurb-pic p, h2 {
+  padding: 2%;
+}
+
+.blurb-pic img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .rightbox {
@@ -44,6 +75,19 @@ body {
 .leftbox {
   margin-right: 6.25%;
   margin-left: 3.125%;
+}
+
+.input-margin {
+  margin-top: 2%;
+}
+
+.sign-button {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.white-background {
+  background-color: #ffffff;
 }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
